@@ -1,10 +1,12 @@
 # Add references
 import os
+from dotenv import load_dotenv
 from azure.identity import DefaultAzureCredential
 from azure.ai.projects import AIProjectClient
 from azure.ai.projects.models import PromptAgentDefinition, MCPTool
 from openai.types.responses.response_input_param import McpApprovalResponse, ResponseInputParam
 
+load_dotenv()
 project_endpoint = os.environ["PROJECT_ENDPOINT"]
 model_deployment = os.environ["MODEL_DEPLOYMENT"]
 
