@@ -1,4 +1,4 @@
 python-dotenv
-aiohttp
 azure-identity
+azure-ai-projects
 openai
