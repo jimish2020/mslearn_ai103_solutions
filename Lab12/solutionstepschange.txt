@@ -1,0 +1,4 @@
+Enable Python Extension on VScode
+Add additional packages 
+pip install azure-core
+change the text-analysis.py creditial authentication framework
